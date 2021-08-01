@@ -89,6 +89,7 @@ while True:
     elif choice == 3:
         user_input = str(input("Enter text: "))
         save(user_input)
+        print("\nReading...")
         speak(user_input)
         break
 
